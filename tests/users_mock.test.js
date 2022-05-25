@@ -1,5 +1,5 @@
 const Users = require('../src/application/users_services');
-const Constants = require('../src/utils/Constants');
+const Constants = require('../src/utils/constants');
 const Utils = require('../src/utils/utils');
 const UsersRepository = require('../src/port/users_repository');
 
