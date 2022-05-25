@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 //Add your connection string into your application code
-const uri = `mongodb+srv://adm:adm@cluster0.z6flp.mongodb.net/myFirstDatabase?`;
+const uri = `mongodb+srv://adm:adm@cluster0.z6flp.mongodb.net/myFirstDatabase`;
 
 mongoose.connect(uri, {
     useNewUrlParser: true,
