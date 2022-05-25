@@ -1,9 +1,10 @@
 const { MusicModel } = require('../infrastructure/database');
 
+
 const UsersRepository = {
     async create(data) {
         try {
-            const model = new SuperModel(data);
+            const model = new MusicModel(data);
             const response = await model.save();
             return response.toObject();
         } catch (e) {
